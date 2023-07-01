@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(images/dots.png.webp) ;
+}
+.hidden-content{
+    display: none;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px dotted black;
+    
+    
+    text-align: center;
+}
+.hidden-content.reveal-btn{
+    display: block;
+}
+button{
+    padding: 10px;
+    margin: 7px;
+    background-color: rgb(167, 99, 231);
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
